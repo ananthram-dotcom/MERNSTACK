@@ -1,0 +1,29 @@
+.hello{
+    color: blueviolet;
+}
+/* element sector */
+ h1{
+    color:red
+ }
+/* class selector */
+ .heading2{
+    color: green;
+ }
+/* id selector */
+.heading3{
+    color: aqua;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    width: 100VM;
+    height: 8rem;
+    background-color: #fff;
+    display: flex;
+}
+.nav-links{
+    display: flex;
+}
