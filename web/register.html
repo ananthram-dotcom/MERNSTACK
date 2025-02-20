@@ -7,12 +7,39 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="https://nasccbe.ac.in/wp-content/uploads/2024/12/logo-2.png" alt="logo" class="logo">
+        <div class="nav-links">
+            <img src="https://campus-bucket.camped.academy/logos/nehru-arts-and-science-college-coimbatore.jpg" alt="logo" class="logo">
+        </div>
         <ul class="nav-links">
-        </ul>
-            <li class="nav-items">Home</li>
-            <li class="nav-items">Register</li>
+            <a href="./index.html">
+                <li class="nav-items">Home</li>
+            </a>
+            <a href="./register.html">
+                <li class="nav-items">Register</li>
+            </a>
             <li class="nav-items">Contact</li>
+        </ul>
     </div>
+    <div class="form-container">
+        <form>
+            <input type="text" placeholder="Name" class="input-field">
+            <input type="number" name="" id="" placeholder="Phone" class="input-field">
+            <input type="email" name="" id="" placeholder="Email" class="input-field">
+            <input type="password" name="" id="" placeholder="Password" class="input-field">
+            <input type="submit" value="Submit" class="input-btn">
+         </form>
+    </div>
+    <button onclick="hi()">Hi </button>
+    <button onclick="hello()">Hello </button>
 </body>
+<script>
+    function hi(){
+        alert("Hi")
+    }
+
+    function hello(){
+        alert("Hello")
+    }
+</script>
+<script src="script.js"></script>
 </html>
